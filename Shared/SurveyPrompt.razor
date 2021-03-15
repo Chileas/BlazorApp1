@@ -1,0 +1,21 @@
+﻿<div class="alert alert-secondary mt-4" role="alert">
+    <span class="oi oi-pencil mr-2" aria-hidden="true"></span>
+    <strong>@Title</strong> @* เอาค่าที่ส่งมาใส่*@
+
+
+<span class="text-nowrap">
+    Please take our
+    <a target="_blank" class="font-weight-bold" href="https://go.microsoft.com/fwlink/?linkid=2112271">brief survey</a>
+    @* tap a ใช้สร้างลิ้ง*@
+</span>
+    and tell us what you think.
+</div>
+
+@* กรณีที่มี @code คือส่วนที่ใช้ในการเขียน c# *@
+
+@code {
+    // Demonstrates how a parent component can supply parameters
+    [Parameter]
+    public string Title { get; set; } //รับค่าและเซทค่าที่ได้รับมา
+
+}

@@ -1,0 +1,15 @@
+﻿@page "/"
+@* @page "/" การหำหนด rount ว่าจะไปหน้าไหนก่อน / เฉยๆ เป็น defualt หน้าแรก *@
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@*  1. SurveyPrompt แท็ก or component ชื่อ SurveyPrompt แบบสร้างขึ้นเอง(custom)
+       -สร้าง component ที่มีพารามีเตอร์ชื่อ Title รับค่าเป็น Text
+    2. SurveyPrompt จะอยู่ใน folder Share เพื่อให้ Page ต่างๆนำไปเรียกใช้
+    3. เรียกใช้ SurveyPrompt กำหนด ค่าเป็น Sring How is Blazor working for you?
+        <SurveyPrompt Title="How is Blazor working for you?" />
+*@
